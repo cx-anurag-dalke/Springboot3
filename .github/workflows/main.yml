@@ -26,7 +26,7 @@ jobs:
           payload: |
             {
               "data": {
-                "version": "testjenkinsrelease",
+                "version": "testjenkinsrelease_1",
                 "startDate": "${{ env.date }}",
                 "date": "${{ env.date }}"
               }
