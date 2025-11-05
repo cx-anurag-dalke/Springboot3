@@ -1,4 +1,4 @@
-name: AST Cli Release
+name: Cosign
 
 on:
   workflow_dispatch:
