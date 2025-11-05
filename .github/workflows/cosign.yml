@@ -11,9 +11,6 @@ jobs:
         uses: actions/checkout@1e31de5234b9f8995739874a8ce0492dc87873e2 #v4.0.0
         with:
           fetch-depth: 0
-      - name: Install Cosign
-        if: inputs.dev == false
-        uses: sigstore/cosign-installer@v3.2.0
       - name: Install Cosign sigstore
         if: inputs.dev == false
         run: |
