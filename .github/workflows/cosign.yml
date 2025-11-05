@@ -12,6 +12,5 @@ jobs:
         with:
           fetch-depth: 0
       - name: Install Cosign sigstore
-        if: inputs.dev == false
         run: |
           brew install sigstore/tap/cosign
