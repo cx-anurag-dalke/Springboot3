@@ -14,3 +14,7 @@ jobs:
       - name: Install Cosign
         if: inputs.dev == false
         uses: sigstore/cosign-installer@v3.2.0
+      - name: Install Cosign sigstore
+        if: inputs.dev == false
+        run: |
+          brew install sigstore/tap/cosign
